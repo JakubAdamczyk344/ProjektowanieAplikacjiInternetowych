@@ -1,0 +1,1 @@
+<div class="mainfooter">Kontakt z autorem: przykladowy.mail@mail.com</div>

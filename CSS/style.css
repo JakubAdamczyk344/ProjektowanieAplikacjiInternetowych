@@ -1,0 +1,179 @@
+body
+{
+	background-image: url("background.png");
+	background-color: #cccccc;
+	color: #262626;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin: 0;
+}
+
+.site
+{
+	width: 100%;
+}
+
+.header
+{
+	height: 150px;
+	background-color: #ff9696;
+	padding-top: 30px;
+}
+
+.logo
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 850px;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	color: #ffffff;
+	font-family: 'Lobster', cursive;
+}
+
+.menu
+{
+	width: 100%;
+	padding-top: 5px;
+	background-color: #dd7575;
+	border-top: 1px solid #cc6464;
+	border-bottom: 1px solid #cc6464;
+	text-align: center;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	line-height: 300%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 180px;
+	/*border-right: 1px dashed #751b1b;*/
+}
+
+ol > li:hover
+{
+	background-color: #cc6464;
+}
+
+.content
+{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	padding-top:15px;
+	padding-bottom: 30px;
+}
+
+.loginFormTable
+{
+	width: 330px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	padding: 25px;
+	border: 2px solid #cc6464;
+	border-radius: 4px;
+	background-color: #ff9696;
+	color: #ffffff;
+}
+
+.formLabel
+{
+	font-size: 18px;
+}
+
+.error
+{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.formInput {
+	width: 306px;
+	padding: 6px 10px;
+	border: solid 2px #cc6464;
+    border-radius: 4px;
+}
+
+.formSubmit{
+	margin-left: 65px;
+	width: 196px;
+	background-color: #dd7575;
+    border: solid 2px #cc6464;
+	border-radius: 4px;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+	font-size: 18px;
+}
+
+.image
+{
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 2px solid #d6d6d6;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.legend
+{
+	width: 550px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 14px;
+	color: #4c4c4c;
+}
+
+.mainfooter
+{
+	text-align: center;
+	width: 100%;
+	background-color: #f2f2f2;
+	padding: 7px;
+	font-size:12px;
+	position: absolute;
+    bottom: 0;
+}
+
+.footer
+{
+	text-align: center;
+	background-color: #f2f2f2;
+	padding: 7px;
+	font-size:12px;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+}
